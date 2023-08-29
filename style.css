@@ -1,0 +1,57 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+img{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 250px;
+    width: 220px;
+    
+}
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .intro {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: large;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .skill {
+    background-color: #35424a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .projects {
+    margin-top: 30px;
+  }
+
+  .project {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
